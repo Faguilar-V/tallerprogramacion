@@ -11,7 +11,7 @@ int main(int argn, char **argv){
     char *mystring;
     //printf("%s\n", argv[1]);
     if (argn<2){
-      printf('Error: you need pass an argument \n')
+      printf('Error: you need pass an argument \n');
       return 0;
     }
     mystring = malloc(sizeof(argv[1]));
